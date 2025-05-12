@@ -93,6 +93,7 @@ Anhand der ersten Ziffer kann man erkennen, ob die Anfrage erfolgreich war oder 
 
 # <u>5. Basic Auth</u>
 
-Bei **Basic Auth** werden **Benutzername und Passwort Base64-codiert** und im **`Authorization`-Header** der HTTP-Anfrage mitgeschickt.  
-❗Dies ist **keine sichere Methode**, da **Base64 lediglich eine Kodierung**, aber **keine Verschlüsselung** ist.  
-Zudem können HTTP-Header unterwegs von **Zwischensystemen (z. B. Reverse-Proxys, Firewalls)** mitgelesen werden – selbst wenn diese **keinen Zugriff auf sensible Daten** haben sollten.
+- Bei **Basic Auth** werden **Benutzername und Passwort Base64-codiert** und im **`Authorization`-Header** der HTTP-Anfrage mitgeschickt.  
+	❗Dies ist **keine sichere Methode**, da **Base64 lediglich eine Kodierung**, aber **keine Verschlüsselung** ist.  
+- Zudem können HTTP-Header unterwegs von **Zwischensystemen (z. B. Reverse-Proxys, Firewalls)** mitgelesen werden – selbst wenn diese **keinen Zugriff auf sensible Daten** haben sollten.
+- Nutzername und Passwort wird bei jeder Anfrage mitgeschickt

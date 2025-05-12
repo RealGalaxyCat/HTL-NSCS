@@ -1,0 +1,5 @@
+- Die **Quoted-Printable-Kodierung** (QP-Kodierung) ist ein Verfahren zur Darstellung von Zeichen, die außerhalb des üblichen ASCII-Bereichs liegen.
+- Genutzt um **nicht-ASCII-Zeichen in textbasierten Formaten** wie **E-Mails** oder alten Systemen darzustellen, die nur **7-Bit-ASCII** zuverlässig unterstützen.
+- Dazu zählen unter anderem **Umlaute**, **Scharfes ß** und **€**
+- Zeichen werden durch ein Gleichheitszeichen (`=`) gefolgt von ihrem **Hexadezimalwert** kodiert, z.B. wird `ä` zu `=E4`.
+- Zeilen maximallänge: **76 Zeichen** – längere Zeilen werden mit einem `=` am Ende umgebrochen und beim Dekodieren wieder zusammengesetzt.
