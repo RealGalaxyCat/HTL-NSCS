@@ -30,16 +30,20 @@
 
 # <u>4. Begriffe</u>
 
-MUA - Mail User Agent
-MSA - Mail Submission Agent
-MTA - Mail Transfer Agent
-MPA - Mail Processing Agent (unwichtig?)
+MUA - Mail User Agent<br>
+MSA - Mail Submission Agent<br>
+MTA - Mail Transfer Agent<br>
+MPA - Mail Processing Agent<br>
 
-**IMAPS (Internet Message Access Protocol Secure)** - Port 993 - SSL verschlüsselt
-**POP3S (Post Office Protocol 3 Secure)** - Port 995 - SSL verschlüsselt
+**IMAPS (Internet Message Access Protocol Secure)** - Port 993 - SSL verschlüsselt<br>
+**POP3S (Post Office Protocol 3 Secure)** - Port 995 - SSL verschlüsselt<br>
+
+<br>
 
 **CC (Carbon Copy)**
 - Jeder Empfänger sieht wer noch im CC ist
+
+<br>
 
 **BCC (Blind Carbon Copy)**
 - Nur der Sender sieht die Adressen welche im BCC stehen
