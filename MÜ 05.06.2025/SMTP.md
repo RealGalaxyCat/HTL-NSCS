@@ -28,6 +28,31 @@
 	- Wird meist als "Remote Block list" verwendet - lokal wäre auch möglich, allerdings umständlich
 
 
+### 3.1 Fehler / Verzögerungsmechanismen
+Fehler können unter anderem verwendet werden um Spammer / Bots zu verlangsamen.
+
+<u>**[1] Temporäre Fehler**</u>
+- z.B. wenn Server überlastet ist
+- Zustellung **soll später erneut versucht werden**
+
+
+<u>**[2] Permanente Fehler**</u>
+- z.B. Fehler im EMail-Aufbau, nicht existente Empfänger-Adresse
+- **direktes Blockieren** bei:
+	- **Blacklisted IPs/Domains/Malware**
+
+
+<u>**[3] Greylisting**</u>
+- E-Mails beim **ersten Zustellversuch temporär ablehnen**
+- Legitime Server versuchen die Zustellung der EMail nach einiger Zeit erneut → EMail wird dann angenommen
+- Spammer geben oft nach **einem** Versuch auf
+
+
+<u>**[4] Tarpitting**</u>
+- absichtlich **längere Antwortzeiten**, um Spam-Mail-Versand zu verlangsamen
+- kann einfach durch Multithreading umgangen werden
+
+
 # <u>4. Begriffe</u>
 
 MUA - Mail User Agent<br>
