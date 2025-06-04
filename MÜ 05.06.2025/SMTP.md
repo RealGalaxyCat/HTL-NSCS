@@ -20,12 +20,12 @@
 
 
 **Whitelist (Allowlist)**
-	- Zugelassene Domains, höhere Priorität als Blacklist
+- Zugelassene Domains, höhere Priorität als Blacklist
 
 **Blacklist (Denylist)**
-	- Verbotene Domains
-	- kann auch Legitime EMail Anbieter (Provider) enthalten von welchen aus Spam geschickt wurde (z.B. gehackte Accounts)
-	- Wird meist als "Remote Block list" verwendet - lokal wäre auch möglich, allerdings umständlich
+- Verbotene Domains
+- kann auch Legitime EMail Anbieter (Provider) enthalten von welchen aus Spam geschickt wurde (z.B. gehackte Accounts)
+- Wird meist als "Remote Block list" verwendet - lokal wäre auch möglich, allerdings umständlich
 
 
 ### 3.1 Fehler / Verzögerungsmechanismen
